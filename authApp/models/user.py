@@ -28,7 +28,7 @@ class UserManager(BaseUserManager):
         return user
 
 class User(AbstractBaseUser, PermissionsMixin):
-    is_active = models.BooleanField(default=True)
+    #is_active = models.BooleanField(default=True)
     id = models.BigAutoField(primary_key=True)
     username = models.CharField('username',max_length=50, unique=True)
     password = models.CharField('password',max_length=256)
