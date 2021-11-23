@@ -91,17 +91,10 @@ WSGI_APPLICATION = 'auth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-<<<<<<< Updated upstream
-        'NAME': 'auth_db',
-        'USER': '',
-        'PASSWORD': '', 
-        'HOST': 'localhost',
-=======
         'NAME': 'd94kc1a8blm4va',
         'USER': 'jvasshqjvpltso',
         'PASSWORD': 'a673442a3c498bc03d6aaafededa7da679723d4e4bb9c4c3d3abc35c520e7393', 
         'HOST': 'ec2-52-20-143-167.compute-1.amazonaws.com',
->>>>>>> Stashed changes
         'PORT': '5432',
     }
 }
@@ -148,9 +141,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< Updated upstream
-=======
 
 import django_heroku
 django_heroku.settings(locals())
->>>>>>> Stashed changes

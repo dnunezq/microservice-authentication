@@ -6,7 +6,6 @@ from rest_framework_simplejwt.backends    import TokenBackend
 from rest_framework_simplejwt.exceptions  import TokenError, InvalidToken
 from rest_framework_simplejwt.serializers import TokenVerifySerializer 
 
-#Verificación de tokens
 class VerifyTokenView(TokenVerifyView):
 
     def post(self, request, *args, **kwargs):
